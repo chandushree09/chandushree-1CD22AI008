@@ -1,5 +1,4 @@
-# chandushree-1CD22AI008
-#1. CNN – Lily vs Rose Flower Classification
+# chandushree   #1. CNN – Lily vs Rose Flower Classification
 
  Original Code
    Faculty provided a CNN program to classify flowers from the tf_flowers dataset.
@@ -9,12 +8,13 @@
   3. Removed unnecessary print statements.
   4. Improved code readability with comments.
   5. Ensured compatibility with Google Colab.
+     
  Reason for Changes
  - Reduce overfitting
  - Improve training speed
  - Make the code easier to understand
- - 
-#2. Reinforcement Learning – Graph Navigation
+  
+# 2. Reinforcement Learning – Graph Navigation
 
  Original Code
    Basic reinforcement learning implementation on a graph was provided.
@@ -28,7 +28,7 @@ Changes Made
   - Easier debugging
   - Improved learning efficienc
   - 
-#3. LSTM
+# 3. LSTM modified code
 
  i.Reduced Number of LSTM Units
  model.add(LSTM(4, input_shape=(1, time_step)))
@@ -54,7 +54,7 @@ Changes Made
  model.add(Dropout(0.2))
  model.add(Dense(1))
 
-#4. Tic-Tac-Toe Reinforcement Learning
+# 4. Tic-Tac-Toe Reinforcement Learning
 
   i. Objective
   To train an AI agent that learns to play Tic-Tac-Toe optimally using reinforcement learning and later play against a human.
@@ -72,7 +72,7 @@ Changes Made
   NumPy
   Reinforcement Learning
 
-#5. AlexNet CNN (Image Classification)
+# 5. AlexNet CNN (Image Classification)
    
   i. Objective
   To implement the AlexNet architecture for image classification and optimize it by reducing layers and parameters.
