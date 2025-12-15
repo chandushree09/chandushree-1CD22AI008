@@ -27,7 +27,7 @@ Changes Made
   - Better readability
   - Easier debugging
   - Improved learning efficienc
-  - 
+    
 # 3. LSTM modified code
 
  i.Reduced Number of LSTM Units
