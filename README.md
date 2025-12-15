@@ -80,8 +80,11 @@ Changes Made
  iv. Final Modified LSTM Architecture
  
  model = Sequential()
+ 
  model.add(LSTM(4, input_shape=(1, time_step)))
+ 
  model.add(Dropout(0.2))
+ 
  model.add(Dense(1))
 
 # 4. Tic-Tac-Toe Reinforcement Learning
@@ -105,6 +108,7 @@ Changes Made
   6. Implemented policy saving and loading using pickle.
 
   iii. Technologies Used
+  
   Python
     
   NumPy
@@ -132,8 +136,32 @@ Changes Made
   iii. Technologies Used
   
   Python
+  
   TensorFlow / Keras
+  
   CNN (Convolutional Neural Networks)
+
+  #  Data set used in all 5 programs
+  
+   1. LSTM Time Series Prediction
+
+   Dataset Used: Airline Passengers Dataset
+
+   2. Airline Data Analysis Program
+
+   Dataset Used: Airline Passenger / Flight Dataset (CSV)
+
+   3. Reinforcement Learning – Shortest Path Navigation
+
+   Dataset Used: Manually Defined Graph Dataset (No external dataset)
+
+   4. Tic Tac Toe Reinforcement Learning
+
+   Dataset Used: Self-Generated Game State Dataset
+
+   5. Lily vs Rose CNN Image Classification
+
+   Dataset Used: TF Flowers Dataset (Lily and Rose classes)
 
 
 
