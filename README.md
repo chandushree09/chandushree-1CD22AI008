@@ -25,7 +25,7 @@ Changes Made
    2. Improved variable naming for clarity.
    3. Optimized reward matrix initialization.
    4. Removed unused imports.
-   5. 
+    
  Reason for Changes
   - Better readability
   - Easier debugging
@@ -34,6 +34,7 @@ Changes Made
 # 3. LSTM modified code
 
  i.Reduced Number of LSTM Units
+ 
  model.add(LSTM(4, input_shape=(1, time_step)))
  Reduced LSTM neurons from 10 → 4
 
